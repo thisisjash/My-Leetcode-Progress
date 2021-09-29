@@ -1,8 +1,8 @@
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        map <int, int> rec;
-        map <int, int> freq;
+        unordered_map <int, int> rec;
+        unordered_map <int, int> freq;
         int n = nums.size ();
         
         for (int i = 0; i < n; i++) {
