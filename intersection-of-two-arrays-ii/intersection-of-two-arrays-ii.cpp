@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        map <int, int> freq;
+        unordered_map <int, int> freq;
         int m = nums1.size (), n = nums2.size ();
         vector <int> vec;
         
