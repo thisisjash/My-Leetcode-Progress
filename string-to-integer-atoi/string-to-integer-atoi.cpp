@@ -42,12 +42,8 @@ public:
                 break;
         }
 
-        cout << neg << " " << ans << endl;
-
         if (ans == 2147483648) {
-            cout << "**";
             if (neg) {
-                cout << "*";
                 ans = -ans;
                 return ans;
             }
